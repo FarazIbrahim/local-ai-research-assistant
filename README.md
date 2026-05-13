@@ -16,7 +16,7 @@
 
 Watch the complete project walkthrough on LinkedIn:
 
-👉 **[View Demo Video](PASTE_YOUR_LINKEDIN_POST_LINK_HERE)**
+👉 **[View Demo Video](https://www.linkedin.com/posts/farazibrahim_ai-python-llm-activity-7460121223109423104-poDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgrcewBR49qNy-3GgPvd8xr_kJkQblG56U)**
 
 📑 **[View Sample PDF Report](reports/sample_research_report.pdf)**
 
