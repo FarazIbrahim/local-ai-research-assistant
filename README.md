@@ -43,7 +43,7 @@ Unlike cloud-dependent AI applications, this project focuses on:
 
 ---
 
-# 🪄 Features
+# ✨ Features
 
 ## 🔍 Autonomous Research Pipeline
 
@@ -288,6 +288,8 @@ Pull the model:
 ollama pull qwen2.5-coder:1.5b
 ```
 
+The system can be configured to use other Ollama-compatible models depending on available hardware resources and performance requirements.
+
 ---
 
 ## 4. Run Application
@@ -413,6 +415,22 @@ The pipeline includes:
 
 ---
 
+# ⚖️ Engineering Tradeoffs
+
+This project was designed with a local-first and modular approach, prioritizing accessibility, privacy, and lightweight deployment.
+
+The research pipeline currently uses:
+
+```python
+qwen2.5-coder:1.5b
+```
+
+A smaller local model was intentionally selected to run efficiently on limited hardware while still enabling autonomous research workflows.
+
+Since the system is fully modular, the underlying model can be upgraded to more capable LLMs as hardware resources improve, without requiring changes to the core architecture.
+
+---
+
 # 🔮 Future Improvements
 
 Planned enhancements:
@@ -446,4 +464,4 @@ Focused on:
 
 # 📌 Notes
 
-This project explores how autonomous AI research systems can be built using local-first LLM infrastructure, retrieval pipelines, structured prompting, and modular orchestration without relying on external paid APIs.
+This project explores how autonomous AI research systems can be architected using local-first LLM infrastructure, retrieval pipelines, structured prompting, and modular orchestration without relying on external paid APIs.
